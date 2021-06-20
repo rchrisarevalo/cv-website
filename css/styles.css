@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+img{
+    pointer-events: none;
+}
+
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(136, 136, 136, 0.561);
+}
+
+::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.664);
+}
+
+#mobile-header{
+    display: none;
+}
+
+.nav-bar{
+    background: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    align-items: center;
+    justify-content: space-around;
+    display: inline-flex;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.nav-list{
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    width: 70%;
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.nav-list li a:hover{
+    background: white;
+    color: black;
+    font-weight: 800;
+    transition: .5s;
+}
+
+.nav-list li a:focus{
+    background: green;
+    color: white;
+    transition: .15s;
+}
+
+#logo{
+    transition: .5s;
+}
+
+#logo a{
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    text-decoration: none;
+}
+
+#logo a:hover{
+    color: rgba(136, 136, 136, 0.76);
+    transition: .5s;
+}
+
+#logo h3{
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#mobile-logo{
+    transition: .5s;
+}
+
+.intro-section{
+    width: 100%;
+    height: 100%;
+}
+
+.introduction{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.introduction h1{
+    text-transform: uppercase;
+}
+
+.profile-pic img{
+    border-radius: 100%;
+    width: 35vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: right;
+    margin-top: 100px;
+}
+
+.row .introduction .profile-pic{
+    display: inline-block;
+}
+
+.education{
+    background: rgb(63, 63, 63);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.education h1{
+    text-align: center;
+}
+
+.education li{
+    list-style: none;
+    padding-top: 5px;
+}
+
+#content, #content2{
+    margin: 2em;
+}
+
+.experience{
+    background: rgb(21, 114, 41);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.experience h1{
+    text-align: center;
+}
+
+.experience li{
+    list-style: none;
+    padding-top: 5px;
+}
+
+#exp-content{
+    margin: 2em;
+}
+
+.software-projects{
+    background: rgb(21, 57, 114);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 75px;
+    padding-top: 75px;
+}
+
+.software-projects h1{
+    text-align: center;
+}
+
+.software-projects li{
+    padding-top: 5px;
+}
+
+#software-content1, #software-content2{
+    margin: 2em;
+}
+
+#programming-languages{
+    float: right;
+}
+
+.coursework{
+    background: rgb(122, 10, 10);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.coursework h1{
+    text-align: center;
+}
+
+.coursework li{
+    list-style: none;
+    padding-top: 5px;
+}
+
+#coursework-content{
+    margin: 2em;
+}
+
+footer{
+    background: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+#copyright{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: 300;
+}
+
+#social-media-links{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-weight: 300;
+    float: right;
+}
+
+#social-media-links a{
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+#social-media-links a:hover{
+    background: white;
+    color: black;
+    font-weight: 800;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+@media screen and (max-width: 800px)
+{
+    img{
+        text-align: center;
+        justify-content: center;
+    }
+    #container{
+        text-align: center;
+    }
+    #mobile-header{
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background: black;
+        position: sticky;
+        top: 0;
+    }
+    .nav-bar{
+        height: 100vh;
+        width: 80%;
+        top: 50px;
+        position: fixed;
+        padding-top: 0px;
+        left: -500px;
+        z-index: 2;
+        transition: .7s;
+    }
+    .nav-bar.active{
+        background: black;
+        left: 0px;
+        transition: .7s;
+    }
+    .nav-list{
+        top: 110px;
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        position: fixed;
+    }
+    #logo{
+        display: none;
+    }
+    #mobile-logo a{
+        font-size: 16px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: .5s;
+        color: white;
+        text-decoration: none;
+    }
+    #mobile-logo a:hover{
+        color: rgba(136, 136, 136, 0.76);
+        transition: .5s;
+    }
+    #mobile-logo h3{
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    .introduction{
+        margin-left: 7%;
+        margin-right: 7%;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: left;
+    }
+    .profile-pic img{
+        width: 15vh;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .education{
+        width: 100%;
+    }
+    #content{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #content2{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #content li{
+        font-size: 15px;
+    }
+    #content2 li{
+        font-size: 15px;
+    }
+    #univ{
+        font-size: 17px;
+        text-align: left;
+    }
+    #college{
+        font-size: 17px;
+        text-align: left;
+    }
+    #city{
+        font-size: 15px;
+        margin: 1.75px;
+    }
+    #degree{
+        font-size: 14px;
+        text-align: left;
+    }
+    #grad{
+        font-size: 15px;
+        text-align: left;
+        float: unset;
+    }
+    #exp-content{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #workplace{
+        text-align: left;
+        font-size: 14px;
+    }
+    #position{
+        text-align: left;
+        font-size: 17px;
+    }
+    #date{
+        text-align: left;
+    }
+    .software-projects li{
+        text-align: left;
+        font-size: 15px;
+    }
+    #software-content1, #software-content2{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #programming-languages{
+        float: none;
+        text-align: left;
+    }
+    #project-title{
+        text-align: left;
+    }
+    .coursework h1{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .coursework li{
+        font-size: 15px;
+    }
+    #copyright{
+        font-size: 13px;
+        text-align: left;
+        float: inline-start;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #social-media-links{
+        margin: 0;
+        text-align: left;
+        float: none;
+        font-size: 14px;
+    }
+}
