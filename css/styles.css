@@ -295,6 +295,12 @@ footer{
         text-align: center;
         justify-content: center;
     }
+     /* Only for closing time (10:00 PM - 8:00 AM) */
+    #overlay h1{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    /*--------------------------------------------*/
     #container{
         text-align: center;
     }
