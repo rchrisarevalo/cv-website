@@ -79,6 +79,7 @@ hr{
     color: white;
     padding: 5px 15px;
     border-radius: 15px;
+    font-weight: 200;
     transition: .5s;
 }
 
@@ -114,7 +115,7 @@ hr{
 }
 
 #logo h3{
-    font-weight: 400;
+    font-weight: 200;
     letter-spacing: 2px;
 }
 
@@ -133,7 +134,7 @@ hr{
     padding-bottom: 70px;
     padding-top: 70px;
     text-align: left;
-    font-size: 18px;
+    font-size: 16.5px;
     font-weight: 300;
 }
 
@@ -165,6 +166,7 @@ hr{
 
 .education h1{
     text-align: center;
+    text-transform: uppercase;
 }
 
 .education li{
@@ -187,6 +189,7 @@ hr{
 
 .experience h1{
     text-align: center;
+    text-transform: uppercase;
 }
 
 .experience li{
@@ -209,6 +212,7 @@ hr{
 
 .software-projects h1{
     text-align: center;
+    text-transform: uppercase;
 }
 
 .software-projects li{
@@ -234,6 +238,7 @@ hr{
 
 .coursework h1{
     text-align: center;
+    text-transform: uppercase;
 }
 
 .coursework li{
@@ -255,13 +260,13 @@ footer{
 #copyright{
     margin-left: 5%;
     margin-right: 5%;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 #social-media-links{
     margin-left: 3%;
     margin-right: 3%;
-    font-weight: 300;
+    font-weight: 200;
     float: right;
 }
 
@@ -281,8 +286,11 @@ footer{
     transition: .5s;
 }
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 1025px)
 {
+    html{
+        scroll-behavior: smooth;
+    }
     img{
         text-align: center;
         justify-content: center;
@@ -291,7 +299,9 @@ footer{
         text-align: center;
     }
     #mobile-header{
-        display: block;
+        display: inline-block;
+        width: 100%;
+        height: 30px;
         padding-top: 20px;
         padding-bottom: 20px;
         background: black;
@@ -304,14 +314,14 @@ footer{
         top: 50px;
         position: fixed;
         padding-top: 0px;
-        left: -500px;
+        left: -900px;
         z-index: 2;
-        transition: .7s;
+        transition: 1.5s;
     }
     .nav-bar.active{
         background: black;
         left: 0px;
-        transition: .7s;
+        transition: .9s;
     }
     .nav-list{
         top: 110px;
@@ -326,8 +336,13 @@ footer{
     #logo{
         display: none;
     }
+    #mobile-logo{
+        margin-left: 23%;
+        margin-right: 23%;
+        transform: translateX(3px);
+    }
     #mobile-logo a{
-        font-size: 16px;
+        font-size: 15px;
         text-transform: uppercase;
         cursor: pointer;
         transition: .5s;
@@ -339,8 +354,18 @@ footer{
         transition: .5s;
     }
     #mobile-logo h3{
-        font-weight: 400;
+        font-weight: 200;
         letter-spacing: 2px;
+    }
+    #report-icon{
+        padding: 7px 15px;
+        transition: .5s;
+        float: right;
+        transform: translate(-10px, -35.5px);
+    }
+    #report-icon i{
+        font-size: 28px;
+        color: white;
     }
     .introduction{
         margin-left: 7%;
@@ -348,12 +373,18 @@ footer{
         padding-bottom: 10px;
         padding-top: 10px;
         text-align: left;
+        font-size: 15px;
+    }
+    .introduction h1{
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 30px;
     }
     .profile-pic img{
-        width: 15vh;
+        width: 17.5vh;
         text-align: center;
         align-items: center;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .education{
         width: 100%;

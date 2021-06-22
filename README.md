@@ -1,7 +1,13 @@
-# cv-website
+# CV Website (v1.1.0)
 This is a CV Website I built using CSS, HTML, and JavaScript based on my official resume, albeit with slight differences.
 
 Contact me through my email on the site if you have any questions.
+
+# Improvements
+
+* A new flag icon was added at the top of the mobile navigation bar. This allows the user to go to a Google Form where they can report an issue in regards to the website.
+
+* Some minor stylistic changes, such as font-size change for the mobile version of this site, have been made.
 
 # NOTE: 
 
