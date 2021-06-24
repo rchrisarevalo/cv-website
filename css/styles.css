@@ -61,8 +61,8 @@ hr{
 }
 
 #mobile-header{
-    position: sticky;
-    top: 0;
+    position: fixed;
+    right: 0px;
     display: none;
 }
 
@@ -331,8 +331,6 @@ footer{
         padding-top: 20px;
         padding-bottom: 20px;
         background: black;
-        position: sticky;
-        top: 0;
     }
     .nav-bar{
         height: 100vh;
