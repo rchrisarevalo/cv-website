@@ -61,9 +61,10 @@ hr{
 }
 
 #mobile-header{
-    position: fixed;
-    right: 0px;
     display: none;
+    position: sticky;
+    top: 0;
+    right: 0px;
 }
 
 .nav-bar{
