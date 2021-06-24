@@ -463,6 +463,10 @@ footer{
         text-align: left;
         font-size: 15px;
     }
+    .software-projects h1{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     #software-content1, #software-content2{
         margin-left: 3%;
         margin-right: 3%;
