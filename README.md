@@ -3,7 +3,7 @@ This is a CV Website I built using CSS, HTML, and JavaScript based on my officia
 
 Contact me through my email on the site if you have any questions.
 
-# Improvements/changes
+# Improvements/Changes
 
 * There was an issue in regards to the mobile header not being fixed to the top of the browser. The fix should take effect after a while. If it doesn't, please report it to me.
 
