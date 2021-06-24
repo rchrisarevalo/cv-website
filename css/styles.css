@@ -329,7 +329,8 @@ footer{
         padding-top: 20px;
         padding-bottom: 20px;
         background: black;
-        
+        position: sticky;
+        top: 0;
     }
     .nav-bar{
         height: 100vh;
