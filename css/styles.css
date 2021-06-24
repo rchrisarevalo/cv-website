@@ -309,13 +309,6 @@ footer{
 
 @media screen and (max-width: 1025px)
 {
-    html{
-        scroll-behavior: smooth;
-    }
-    img{
-        text-align: center;
-        justify-content: center;
-    }
      /* Only for closing time (10:00 PM - 8:00 AM) */
     #overlay h1{
         margin-left: 10%;
@@ -406,7 +399,7 @@ footer{
         font-size: 30px;
     }
     .profile-pic img{
-        width: 17.5vh;
+        width: 17vh;
         text-align: center;
         align-items: center;
         margin-top: 30px;
