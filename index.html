@@ -2,12 +2,13 @@
 <html lang ="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="robots" content="noindex">
         <link rel = "stylesheet" href="css/styles.css">
         <link rel = "stylesheet" href="hamburgers-master/dist/hamburgers.css">
         <title>Ruben C. Arevalo - CV</title>
     </head>
-    <link rel = "shortcut icon" type="image/x-icon" href="images/r-icon2.png">
+    <link rel = "shortcut icon" type = "image/x-icon" href="images/r-icon2.png">
     <body>
         <div id = "container">
             <div class = "closed-screen" style="display: none;">
@@ -17,7 +18,7 @@
                     </h1>
                 </div>
             </div>
-            <div id="mobile-header" style="position: sticky; top: 0;">
+            <div id="mobile-header">
                 <div class = "hamburger hamburger--squeeze">
                     <div class = "hamburger-box">
                       <div class = "hamburger-inner"></div>
@@ -37,11 +38,12 @@
                     <a href="index.html"><h3>Ruben C. Arevalo</h3></a>
                 </div>
                 <ul class = "nav-list">
-                    <li><a href="#intro">About Me</a></li>
+                    <li><a href="#">About Me</a></li>
                     <li><a href="#educate">Education</a></li>
                     <li><a href="#exp">Experience</a></li>
                     <li><a href="#software">Software Projects</a></li>
                     <li><a href="#courses">Relevant Coursework</a></li>
+                    <li id="web-report"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeSu_sZqwO_m42GKlmXKrA30hyTglQQY1N3V2PIcdGc87WbXg/viewform" target="_blank" title="Report an issue"><i class="far fa-flag"></i></a></li>
                 </ul>
             </nav>
             <div class = "intro-section">
@@ -148,6 +150,7 @@
             </div>
         </footer>
         <script src="https://kit.fontawesome.com/44cd3f986c.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="js/load-nav.js"></script>
     </body>
 </html>
