@@ -309,7 +309,14 @@ footer{
 
 @media screen and (max-width: 1025px)
 {
-     /* Only for closing time (10:00 PM - 8:00 AM) */
+    html{
+        scroll-behavior: smooth;
+    }
+    img{
+        text-align: center;
+        justify-content: center;
+    }
+    /* Only for closing time (10:00 PM - 8:00 AM) */
     #overlay h1{
         margin-left: 10%;
         margin-right: 10%;
@@ -325,8 +332,6 @@ footer{
         padding-top: 20px;
         padding-bottom: 20px;
         background: black;
-        position: sticky;
-        top: 0;
     }
     .nav-bar{
         height: 100vh;
@@ -401,7 +406,7 @@ footer{
         font-size: 30px;
     }
     .profile-pic img{
-        width: 17vh;
+        width: 17.5vh;
         text-align: center;
         align-items: center;
         margin-top: 30px;
@@ -497,5 +502,8 @@ footer{
         text-align: left;
         float: none;
         font-size: 14px;
+    }
+    #web-report{
+        display: none;
     }
 }
