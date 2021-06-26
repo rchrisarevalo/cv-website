@@ -9,7 +9,7 @@ function loadNav(){
         if (nav.classList.toggle("active") == true){
             document.body.style.cssText = 'overflow: hidden;';
         } else{
-            document.body.style.cssText = 'overflow: scroll';
+            document.body.style.cssText = ' ';
         }
         
     });
