@@ -3,8 +3,15 @@ function loadNav(){
     var nav = document.querySelector(".nav-bar");
 
     burger.addEventListener("click", () => {
+
         burger.classList.toggle("is-active");
-        nav.classList.toggle("active");
+
+        if (nav.classList.toggle("active") == true){
+            document.body.style.cssText = 'overflow: hidden;';
+        } else{
+            document.body.style.cssText = 'overflow: scroll';
+        }
+        
     });
 }
 
