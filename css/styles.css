@@ -60,10 +60,13 @@ hr{
     margin-right: 20%;
 }
 
-#mobile-header{
-    display: none;
+.mobile-container{
     position: sticky;
     top: 0;
+}
+
+#mobile-header{
+    display: none;
     right: 0px;
 }
 
@@ -324,6 +327,10 @@ footer{
     /*--------------------------------------------*/
     #container{
         text-align: center;
+    }
+    .mobile-container{
+        position: sticky;
+        top: 0;
     }
     #mobile-header{
         display: inline-block;
