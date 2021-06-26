@@ -120,6 +120,15 @@ hr{
     transition: .15s;
 }
 
+#web-report{
+    transform: translateY(-2px);
+}
+
+#web-report a i{
+    font-size: 25px;
+    transform: translateY(3px);
+}
+
 #logo{
     transition: .5s;
 }
