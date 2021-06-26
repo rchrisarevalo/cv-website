@@ -1,11 +1,11 @@
-# CV Website (v1.1.1)
+# CV Website (v1.1.2)
 This is a CV Website I built using CSS, HTML, and JavaScript based on my official resume, albeit with slight differences.
 
 Contact me through my email on the site if you have any questions.
 
 # Improvements/Changes
 
-* There was an issue in regards to the mobile header not being fixed to the top of the browser. The fix should take effect after a while. If it doesn't, please report it to me.
+* The "Report" flag was not included on to the desktop version of the site. That has been addressed.
 
 # NOTE: 
 
