@@ -9,12 +9,12 @@
         <title>Ruben C. Arevalo - CV</title>
     </head>
     <link rel = "shortcut icon" type = "image/x-icon" href="images/r-icon2.png">
-    <body style="overflow-x: none; overflow-y: none;">
+    <body>
         <div id = "container">
-            <div class = "closed-screen">
+            <div class = "closed-screen" style="display: none;">
                 <div id = "overlay">
-                    <h1>
-                        This website is closed from 10:00 PM to 9:30 AM.
+                    <h1>This website is closed from 10:00 PM to 9:30 AM. Come back after
+                        this time period is over!
                     </h1>
                 </div>
             </div>
@@ -36,16 +36,18 @@
                 </div>
             </div>
             <nav class = "nav-bar">
-                <div id = "logo">
-                    <a href="index.html"><h3>Ruben C. Arevalo</h3></a>
-                </div>
                 <ul class = "nav-list">
+                    <div id = "logo">
+                        <a href="index.html"><h3>Ruben C. Arevalo</h3></a>
+                    </div>
                     <li><a href="#">About Me</a></li>
                     <li><a href="#educate">Education</a></li>
                     <li><a href="#exp">Experience</a></li>
                     <li><a href="#software">Software Projects</a></li>
                     <li><a href="#courses">Relevant Coursework</a></li>
-                    <li id="web-report"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeSu_sZqwO_m42GKlmXKrA30hyTglQQY1N3V2PIcdGc87WbXg/viewform" target="_blank" title="Report an issue"><i class="far fa-flag"></i></a></li>
+                    <div class = "report-container">
+                        <li id="web-report"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeSu_sZqwO_m42GKlmXKrA30hyTglQQY1N3V2PIcdGc87WbXg/viewform" target="_blank" title="Report an issue"><i class="far fa-flag"></i></a></li>
+                    </div>
                 </ul>
             </nav>
             <div class = "intro-section">
@@ -144,8 +146,8 @@
         </div>
         <footer>
             <div id = "social-media-links">
-                <a href="https://www.linkedin.com/in/ruben-arevalo-4944251b7/" target="_blank">Linkedin</a>
-                <a href="https://github.com/rchrisarevalo" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/ruben-arevalo-4944251b7/" id="color-1" target="_blank">Linkedin</a>
+                <a href="https://github.com/rchrisarevalo" id="color-2" target="_blank">GitHub</a>
             </div>
             <div id = "copyright">
                 &copy; 2021 Ruben Christopher Arevalo.
