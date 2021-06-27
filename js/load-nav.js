@@ -7,11 +7,11 @@ function loadNav(){
         burger.classList.toggle("is-active");
 
         if (nav.classList.toggle("active") == true){
-            document.body.style.cssText = 'overflow: hidden; background-color: rgba(0, 0, 0, 0.796); transition: .5s;';
+            document.body.style.cssText = 'overflow: hidden;';
         } else{
-            document.body.style.cssText = 'transition: .5s;';
+            document.body.style.cssText = ' ';
         }
-        
+
     });
 }
 
