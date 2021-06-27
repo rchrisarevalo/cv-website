@@ -399,7 +399,6 @@ footer{
         position: fixed;
         padding-top: 0px;
         left: -900px;
-        z-index: 1;
         transition: 1.5s;
     }
     .nav-bar.active{
