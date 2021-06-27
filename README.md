@@ -1,11 +1,13 @@
-# CV Website (v1.1.2)
+# CV Website (v1.2.0)
 This is a CV Website I built using CSS, HTML, and JavaScript based on my official resume, albeit with slight differences.
 
 Contact me through my email on the site if you have any questions.
 
-# Improvements/Changes
+# Improvements
 
-* The "Report" flag was not included on to the desktop version of the site. That has been addressed.
+* The web and mobile version of the navigation bar has been redesigned.
+
+* Scroll will be disabled whenever the mobile navigation bar is activated and vice versa.
 
 # NOTE: 
 
