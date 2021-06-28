@@ -147,7 +147,7 @@ hr{
 }
 
 .button{
-    background-image: grey;
+    background: rgb(63, 63, 63);
     color: white;
     font-family: 'Poppins', sans-serif;
     padding: 4px 14px;
