@@ -147,8 +147,7 @@ hr{
 }
 
 .button{
-    border: 1px solid white;
-    background-image: linear-gradient(to right, rgb(104, 233, 233), rgb(0, 153, 255), rgb(205, 98, 238));
+    background-image: grey;
     color: white;
     font-family: 'Poppins', sans-serif;
     padding: 4px 14px;
@@ -162,7 +161,7 @@ hr{
     color: white;
     text-decoration: none;
     padding: 0px 5px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 .button a i{
