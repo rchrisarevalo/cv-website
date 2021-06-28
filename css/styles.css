@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 
 *{
     margin: 0;
@@ -147,21 +149,30 @@ hr{
 }
 
 .button{
+    border: none;
     background: rgb(63, 63, 63);
-    border: transparent;
     color: white;
     font-family: 'Poppins', sans-serif;
-    padding: 4px 14px;
+    padding: 5px 0px;
     border-radius: 20px;
     font-size: 17px;
-    font-weight: 500;
     margin-bottom: 2px;
 }
 
 .button a{
     color: white;
     text-decoration: none;
-    padding: 0px 5px;
+    padding: 5px 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.button a:hover{
+    background: white;
+    color: black;
+    font-weight: 800;
+    transition: .5s;
 }
 
 .button a i{
@@ -185,6 +196,9 @@ hr{
 
 .introduction h1{
     text-transform: uppercase;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 .profile-pic img{
@@ -208,6 +222,9 @@ hr{
 .education h1{
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .education li{
@@ -231,6 +248,9 @@ hr{
 .experience h1{
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .experience li{
@@ -254,6 +274,11 @@ hr{
 .software-projects h1{
     text-align: center;
     text-transform: uppercase;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .software-projects li{
@@ -280,6 +305,9 @@ hr{
 .coursework h1{
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 .coursework li{
@@ -402,14 +430,14 @@ footer{
         font-weight: 200;
         letter-spacing: 2px;
     }
+    .button{
+        display: none;
+    }
     #report-icon{
         padding: 7px 15px;
         transition: .5s;
         float: right;
         transform: translate(-10px, -35.5px);
-    }
-    .button{
-        display: none;
     }
     #report-icon i{
         font-size: 28px;
@@ -447,9 +475,11 @@ footer{
     }
     #content li{
         font-size: 15px;
+        text-align: left;
     }
     #content2 li{
         font-size: 15px;
+        text-align: left;
     }
     #univ{
         font-size: 17px;
@@ -471,6 +501,9 @@ footer{
         font-size: 15px;
         text-align: left;
         float: unset;
+    }
+    #org{
+        text-align: left;
     }
     #exp-content{
         margin-left: 3%;
