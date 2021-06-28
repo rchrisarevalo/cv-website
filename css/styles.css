@@ -398,9 +398,6 @@ footer{
         font-weight: 200;
         letter-spacing: 2px;
     }
-    .button{
-        display: none;
-    }
     #report-icon{
         padding: 7px 15px;
         transition: .5s;
