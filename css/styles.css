@@ -148,13 +148,13 @@ hr{
 
 .button{
     background: rgb(63, 63, 63);
-    border: none;
+    border: transparent;
     color: white;
     font-family: 'Poppins', sans-serif;
     padding: 4px 14px;
     border-radius: 20px;
-    font-size: 17px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     margin-bottom: 2px;
 }
 
@@ -162,7 +162,7 @@ hr{
     color: white;
     text-decoration: none;
     padding: 0px 5px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 }
 
 .button a i{
