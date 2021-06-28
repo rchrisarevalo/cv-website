@@ -60,28 +60,23 @@ hr{
     margin-right: 20%;
 }
 
-.mobile-container{
-    position: sticky;
-    top: 0;
-}
-
 #mobile-header{
-    display: none;
+    position: fixed;
     right: 0px;
+    display: none;
 }
 
 #logo{
     transition: .5s;
-    margin-right: 30px;
 }
 
 #logo a{
     font-size: 17px;
     text-transform: uppercase;
     cursor: pointer;
+    transition: .5s;
     color: white;
     text-decoration: none;
-    transition: .5s;
 }
 
 #logo a:hover{
@@ -102,37 +97,33 @@ hr{
     background: black;
     color: white;
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
     align-items: center;
     justify-content: space-around;
     display: inline-flex;
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     position: sticky;
     top: 0;
 }
 
 .nav-list{
     display: inline-flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-size: 17px;
-    text-align: center;
-    width: 90%;
+    width: 60%;
 }
 
 .nav-list li{
     list-style: none;
-    margin-bottom: 3px;
 }
 
 .nav-list li a{
     text-decoration: none;
     color: white;
     padding: 5px 15px;
-    margin: 7px;
     border-radius: 20px;
     font-weight: 200;
     transition: .5s;
@@ -148,41 +139,29 @@ hr{
 .nav-list li a:focus{
     background: green;
     color: white;
-    transition: .5s;
+    transition: .15s;
 }
 
-.report-container{
-    text-align: center;
-    margin-left: 30px;
-}
-
-.report-container li{
-    list-style: none;
-    margin-bottom: 3px;
-}
-
-.report-container li a{
+.button{
+    border: 1px solid white;
+    background-image: linear-gradient(to right, rgb(104, 233, 233), rgb(0, 153, 255), rgb(205, 98, 238));
     color: white;
-    border-radius: 30px;
-    transition: .5s;
-    padding: 10px 10px;
+    font-family: 'Poppins', sans-serif;
+    padding: 4px 14px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.button a{
+    color: white;
     text-decoration: none;
-    text-align: center;
-    align-items: center;
+    padding: 0px 5px;
 }
 
-.report-container li a:hover{
-    background-color: white;
-    color: black;
-}
-
-#web-report{
-    transform: translateY(-2px);
-}
-
-#web-report a i{
-    font-size: 25px;
-    transform: translateY(3px);
+.button a i{
+    padding: 0px 10px;
 }
 
 .intro-section{
@@ -211,10 +190,6 @@ hr{
     margin-right: 5%;
     float: right;
     margin-top: 100px;
-}
-
-.row .introduction .profile-pic{
-    display: inline-block;
 }
 
 .education{
@@ -348,20 +323,6 @@ footer{
     transition: .5s;
 }
 
-#social-media-links #color-1:focus{
-    background: #0077b5;
-    color: white;
-    border-radius: 20px;
-    transition: .5s;
-}
-
-#social-media-links #color-2:focus{
-    background: #6a5acd;
-    color: white;
-    border-radius: 20px;
-    transition: .5s;
-}
-
 @media screen and (max-width: 1025px)
 {
     html{
@@ -371,7 +332,7 @@ footer{
         text-align: center;
         justify-content: center;
     }
-    /* Only for closing time (10:00 PM - 8:00 AM) */
+     /* Only for closing time (10:00 PM - 8:00 AM) */
     #overlay h1{
         margin-left: 10%;
         margin-right: 10%;
@@ -379,10 +340,6 @@ footer{
     /*--------------------------------------------*/
     #container{
         text-align: center;
-    }
-    .mobile-container{
-        position: sticky;
-        top: 0;
     }
     #mobile-header{
         display: inline-block;
@@ -395,10 +352,11 @@ footer{
     .nav-bar{
         height: 100vh;
         width: 100%;
-        top: 65px;
+        top: 50px;
         position: fixed;
         padding-top: 0px;
         left: -900px;
+        z-index: 2;
         transition: 1.5s;
     }
     .nav-bar.active{
@@ -410,14 +368,11 @@ footer{
         top: 110px;
         width: 100%;
         height: 70%;
-        display: inline-flex;
+        display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
         position: fixed;
-    }
-    .report-container{
-        display: none;
     }
     #logo{
         display: none;
@@ -443,8 +398,12 @@ footer{
         font-weight: 200;
         letter-spacing: 2px;
     }
+    .button{
+        display: none;
+    }
     #report-icon{
         padding: 7px 15px;
+        transition: .5s;
         float: right;
         transform: translate(-10px, -35.5px);
     }
@@ -470,7 +429,6 @@ footer{
         text-align: center;
         align-items: center;
         margin-top: 30px;
-        z-index: 0;
     }
     .education{
         width: 100%;
@@ -529,10 +487,6 @@ footer{
         text-align: left;
         font-size: 15px;
     }
-    .software-projects h1{
-        margin-left: 5%;
-        margin-right: 5%;
-    }
     #software-content1, #software-content2{
         margin-left: 3%;
         margin-right: 3%;
@@ -563,8 +517,5 @@ footer{
         text-align: left;
         float: none;
         font-size: 14px;
-    }
-    #web-report{
-        display: none;
     }
 }
