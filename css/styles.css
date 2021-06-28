@@ -150,8 +150,7 @@ hr{
     padding: 4px 14px;
     border-radius: 20px;
     font-size: 17px;
-    font-weight: 500;
-    letter-spacing: 1.5px;
+    font-weight: 600;
     margin-bottom: 2px;
 }
 
@@ -159,6 +158,7 @@ hr{
     color: white;
     text-decoration: none;
     padding: 0px 5px;
+    letter-spacing: 1.5px;
 }
 
 .button a i{
