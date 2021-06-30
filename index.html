@@ -6,12 +6,13 @@
         <meta name="robots" content="noindex">
         <link rel = "stylesheet" href="css/styles.css">
         <link rel = "stylesheet" href="hamburgers-master/dist/hamburgers.css">
+        <link rel = "stylesheet" href="nprogress-master/nprogress.css">
         <title>Ruben C. Arevalo - CV</title>
     </head>
     <link rel = "icon" href="images/r-icon2.png">
-    <body style="overflow: hidden;">
+    <body>
         <div id = "container">
-            <div class = "closed-screen">
+            <div class = "closed-screen" style="display: none;">
                 <div id = "overlay">
                     <h1>
                         This website is closed from 10:00 PM to 9:30 AM.
@@ -59,7 +60,7 @@
                             Hi everyone! My name is Ruben Arevalo. I am currently a student at the University of Texas-Rio Grande Valley.
                             I am currently pursuing my bachelor's degree in computer engineering with my concentration focusing on
                             software. Since I was a high school student, I always found the concept of programming intriguing, thinking
-                            about how much several lines of code can change the world in so many different ways. This led to me to develop a huge interest
+                            about how much it can change the world in so many different ways. This led to me to develop a huge interest
                             in learning about software development, since there are so many software programs out there in the Internet,
                             whether they'd be web applications, server-side applications, etc. Without them, we wouldn't be where we are
                             today in terms of how much technology has impacted our lives.
@@ -82,10 +83,10 @@
                             <h4 style="font-weight: 300; margin-left: 5%; margin-right: 5%;" id="degree"><i>B.S. in Computer Engineering</i></h4>
                             <br>
                             <h3 style="font-weight: 500; margin-left: 5%; margin-right: 5%;" id="org"><u>Organizations</u></h3>
-                            <li style="margin-left: 5%; margin-right: 5%; font-weight: 300;">Student Leadership Academy</li>
-                            <li style="margin-left: 5%; margin-right: 5%; font-weight: 300;">Google Developer Student Club</li>
-                            <li style="margin-left: 5%; margin-right: 5%; font-weight: 300;">Association for Computing Machinery</li>
-                            <li style="margin-left: 5%; margin-right: 5%; font-weight: 300;">National Society for Leadership and Success</li>
+                            <li style="margin-left: 5%; margin-right: 5%; font-weight: 300;">Student Leadership Academy (2020-Present)</li>
+                            <li style="margin-left: 5%; margin-right: 5%; font-weight: 300;">Google Developer Student Club (2019-Present)</li>
+                            <li style="margin-left: 5%; margin-right: 5%; font-weight: 300;">Association for Computing Machinery (2019-Present)</li>
+                            <li style="margin-left: 5%; margin-right: 5%; font-weight: 300;">National Society for Leadership and Success (2020-2021)</li>
                         </div>
                         <div id = "content2">
                             <br>
@@ -117,7 +118,7 @@
                             <br>
                             <h4 style="font-weight: 600; margin-left: 5%; margin-right: 5%;" id="programming-languages">Written in: HTML | CSS | JavaScript</h4>
                             <h3 style="font-weight: 600; margin-left: 5%; margin-right: 5%;" id="project-title">Look Video and Photography Website</h3>
-                            <li style="margin-left: 5%; margin-right: 5%; font-weight: 300;">Designed and implemented a multi-page web application for use by local photography business</li>
+                            <li style="margin-left: 5%; margin-right: 5%; font-weight: 300;">Designed an implemented a multi-page web application for use by local photography business</li>
                             <br>
                             <br>
                             <hr>
@@ -126,6 +127,14 @@
                             <h4 style="font-weight: 600; margin-left: 5%; margin-right: 5%;" id="programming-languages">Written in: Java</h4>
                             <h3 style="font-weight: 600; margin-left: 5%; margin-right: 5%;" id="project-title">SpaceShip Video Game</h3>
                             <li style="margin-left: 5%; margin-right: 5%; font-weight: 300;">Designed a video game application as part of a project for a class in OOP for Java</li>
+                            <br>
+                            <br>
+                            <hr>
+                        </div>
+                        <div id = "software-content3">
+                            <h4 style="font-weight: 600; margin-left: 5%; margin-right: 5%;" id="programming-languages">Written in: HTML | CSS | JavaScript</h4>
+                            <h3 style="font-weight: 600; margin-left: 5%; margin-right: 5%;" id="project-title">CV (Curriculum Vitae) Website</h3>
+                            <li style="margin-left: 5%; margin-right: 5%; font-weight: 300;">Designed and implemented a single-page application for displaying a CV that can be read by recruiters</li>
                         </div>
                     </div>
                     <div class = "coursework" id="courses">
@@ -154,6 +163,15 @@
             </div>
         </footer>
         <script src="https://kit.fontawesome.com/44cd3f986c.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="nprogress-master/nprogress.js"></script>
+        <script type="text/javascript">
+            NProgress.configure({minimum: 0.1, showSpinner: false, easing: 'ease', speed: 600, trickleSpeed: 200});
+            NProgress.start();
+            NProgress.set(0.5);
+            NProgress.inc(1.0);
+            NProgress.done(true);
+        </script>
         <script src="js/load-nav.js"></script>
     </body>
 </html>
