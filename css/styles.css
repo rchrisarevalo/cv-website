@@ -175,6 +175,12 @@ hr{
     transition: .5s;
 }
 
+.button a:focus{
+    background: red;
+    color: white;
+    transition: ease-in .15s;
+}
+
 .button a i{
     padding: 0px 10px;
 }
@@ -190,7 +196,7 @@ hr{
     padding-bottom: 70px;
     padding-top: 70px;
     text-align: left;
-    font-size: 16.5px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -274,8 +280,8 @@ hr{
 .software-projects h1{
     text-align: center;
     text-transform: uppercase;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-family: 'Teko', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -285,7 +291,7 @@ hr{
     padding-top: 5px;
 }
 
-#software-content1, #software-content2{
+#software-content1, #software-content2, #software-content3{
     margin: 2em;
 }
 
@@ -524,7 +530,7 @@ footer{
         text-align: left;
         font-size: 15px;
     }
-    #software-content1, #software-content2{
+    #software-content1, #software-content2, #software-content3{
         margin-left: 3%;
         margin-right: 3%;
     }
