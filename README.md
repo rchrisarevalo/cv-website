@@ -19,4 +19,4 @@ Note that besides the use of the "hamburgers-master" and the "nprogress-master" 
 
 # Copyright Year
 
-© 2021 Ruben Christopher Arevalo. All rights reserved.
+© 2021 Ruben Christopher Arevalo.
