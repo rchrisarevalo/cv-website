@@ -1,13 +1,11 @@
-# CV Website (v1.3.0)
+# CV Website (v1.4.0)
 This is a CV Website I built using CSS, HTML, and JavaScript based on my official resume, albeit with slight differences.
 
 Contact me through my email on the site if you have any questions.
 
 # Improvements/changes:
 
-* A new project has been added to the "Software Projects" section.
-
-* A progress bar has been added. Whenever a user refreshes the page, the progress bar will display above just below the header.
+* Footer has been redesigned, with a last modified date having been added to it.
 
 # Credit to the users who have created some of the components that were used in this site: 
 
