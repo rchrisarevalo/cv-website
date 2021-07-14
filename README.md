@@ -6,7 +6,9 @@ Contact me through my email on the site if you have any questions.
 # Improvements/changes:
 
 * Starting today, on July 14, the closed screen will no longer be displayed.
+
 * I made this decision because I personally thought that this will negatively impact the website. So I thought about it for about a week, and couldn't fully address the issue since I was at school focusing on my college classes. Now that I have barely enough free time, I decided to take down the HTML and CSS code that made up the screen that said that the website was going to be closed and opened for a certain time period.
+
 * Changes should have taken effect as of right now.
 
 # Credit to the users who have created some of the components that were used in this site: 
