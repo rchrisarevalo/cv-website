@@ -6,6 +6,7 @@ Contact me through my email on the site if you have any questions.
 # Improvements/changes:
 
 * Footer has been redesigned, with a last modified date having been added to it.
+
 * Some bug fixes have been made.
 
 # Credit to the users who have created some of the components that were used in this site: 
