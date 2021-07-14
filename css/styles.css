@@ -273,7 +273,7 @@ hr{
     padding-top: 5px;
 }
 
-#software-content1, #software-content2, #software-content3{
+#software-content1, #software-content2, #software-content3, #software-content4{
     margin: 2em;
 }
 
@@ -523,7 +523,7 @@ footer{
         text-align: left;
         font-size: 15px;
     }
-    #software-content1, #software-content2, #software-content3{
+    #software-content1, #software-content2, #software-content3, #software-content4{
         margin-left: 3%;
         margin-right: 3%;
     }
