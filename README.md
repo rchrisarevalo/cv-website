@@ -9,7 +9,7 @@ Contact me through my email on the site if you have any questions.
 
 * I made this decision because I personally thought that this will negatively impact the website. So I thought about it for about a week, and couldn't fully address the issue since I was at school focusing on my college classes. Now that I have barely enough free time, I decided to take down the HTML and CSS code that made up the screen that said that the website was going to be closed and opened for a certain time period.
 
-* Changes should have taken effect as of right now.
+* Changes should have taken effect as of right now. Let me know if there are any bugs/issues through the report button of CV website. I'll also be including a link to my personal site that displays my works I have completed so far.
 
 # Credit to the users who have created some of the components that were used in this site: 
 
