@@ -1,13 +1,13 @@
-# CV Website (v1.4.0)
+# CV Website (v1.5.0)
 This is a CV Website I built using CSS, HTML, and JavaScript based on my official resume, albeit with slight differences.
 
 Contact me through my email on the site if you have any questions.
 
 # Improvements/changes:
 
-* Footer has been redesigned, with a last modified date having been added to it.
-
-* Some bug fixes have been made.
+* Starting today, on July 14, the closed screen will no longer be displayed.
+* I made this decision because I personally thought that this will negatively impact the website. So I thought about for about a week, and couldn't address the issue since I was at school focusing on my college classes. In the end, I decided to take down the HTML and CSS code that made up the computer screen.
+* Changes should have taken effect as of right now.
 
 # Credit to the users who have created some of the components that were used in this site: 
 
