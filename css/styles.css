@@ -59,7 +59,7 @@ hr{
 }
 
 #logo a{
-    font-size: 17px;
+    font-size: 16px;
     text-transform: uppercase;
     cursor: pointer;
     transition: .5s;
@@ -100,8 +100,8 @@ hr{
     justify-content: space-around;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 17px;
-    width: 60%;
+    font-size: 16px;
+    width: 55%;
 }
 
 .nav-list li{
@@ -414,7 +414,7 @@ footer{
         transform: translateX(3px);
     }
     #mobile-logo a{
-        font-size: 15px;
+        font-size: 16px;
         text-transform: uppercase;
         cursor: pointer;
         transition: .5s;
