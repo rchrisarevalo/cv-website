@@ -59,7 +59,7 @@ hr{
 }
 
 #logo a{
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
     cursor: pointer;
     transition: .5s;
@@ -89,8 +89,8 @@ hr{
     justify-content: space-around;
     display: inline-flex;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     position: sticky;
     top: 0;
 }
@@ -100,7 +100,7 @@ hr{
     justify-content: space-around;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 15px;
     width: 55%;
 }
 
@@ -137,7 +137,7 @@ hr{
     font-family: 'Poppins', sans-serif;
     padding: 5px 0px;
     border-radius: 20px;
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 2px;
 }
 
