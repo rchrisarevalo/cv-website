@@ -1,4 +1,4 @@
-# CV Website (v1.5.2)
+# CV Website (v1.5.3)
 This is a CV Website I built using CSS, HTML, and JavaScript based on my official resume, albeit with slight differences.
 
 Contact me through my email on the site if you have any questions. Report issues through my website (either through the report button or by tapping the flag icon if you are on the mobile version).
@@ -8,11 +8,11 @@ I might plan to migrate the website into React.js either later this year or in 2
 
 # Improvements/changes:
 
-* New profile picture in the "About Me" section.
-
-* Updated information in the "Relevant Coursework" section.
-
 * Font size for logo and navigation bar has been slightly reduced.
+
+* Resume file updated.
+
+* Relevant coursework information updated.
 
 # Credit to the users who have created some of the components that were used in this site: 
 
