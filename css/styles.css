@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
@@ -14,7 +15,7 @@ html{
 body{
     width: 100%;
     height: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Urbanist', sans-serif;
     font-size: 16px;
 }
 
@@ -56,6 +57,7 @@ hr{
 
 #logo{
     transition: .5s;
+    font-family: 'Poppins', sans-serif;
 }
 
 #logo a{
@@ -84,13 +86,13 @@ hr{
 .nav-bar{
     background: black;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Urbanist', sans-serif;
     align-items: center;
     justify-content: space-around;
     display: inline-flex;
     width: 100%;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     position: sticky;
     top: 0;
 }
@@ -100,7 +102,8 @@ hr{
     justify-content: space-around;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
     width: 55%;
 }
 
@@ -134,10 +137,11 @@ hr{
     border: none;
     background: rgb(63, 63, 63);
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Urbanist', sans-serif;
     padding: 5px 0px;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
     margin-bottom: 2px;
 }
 
@@ -178,7 +182,8 @@ hr{
     padding-bottom: 70px;
     padding-top: 70px;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
     font-weight: 300;
 }
 
@@ -211,7 +216,7 @@ hr{
     text-align: center;
     text-transform: uppercase;
     font-family: 'Teko', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
 }
 
@@ -222,6 +227,8 @@ hr{
 
 #content, #content2{
     margin: 2em;
+    font-size: 18px;
+    letter-spacing: 0.5px;
 }
 
 .experience{
@@ -237,7 +244,7 @@ hr{
     text-align: center;
     text-transform: uppercase;
     font-family: 'Teko', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
 }
 
@@ -248,6 +255,8 @@ hr{
 
 #exp-content{
     margin: 2em;
+    font-size: 18px;
+    letter-spacing: 0.5px;
 }
 
 .software-projects{
@@ -265,7 +274,7 @@ hr{
     margin-left: 5%;
     margin-right: 5%;
     font-family: 'Teko', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
 }
 
@@ -275,6 +284,8 @@ hr{
 
 #software-content1, #software-content2, #software-content3, #software-content4{
     margin: 2em;
+    font-size: 18px;
+    letter-spacing: 0.5px;
 }
 
 #programming-languages{
@@ -294,7 +305,7 @@ hr{
     text-align: center;
     text-transform: uppercase;
     font-family: 'Teko', sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
 }
 
@@ -305,6 +316,8 @@ hr{
 
 #coursework-content{
     margin: 2em;
+    font-size: 18px;
+    letter-spacing: 0.5px;
 }
 
 footer{
@@ -323,6 +336,8 @@ footer{
     margin-left: 10%;
     margin-right: 10%;
     font-weight: 200;
+    font-size: 17px;
+    letter-spacing: 0.5px;
 }
 
 #last-updated{
@@ -335,7 +350,7 @@ footer{
 #social-media-links{
     margin-left: 5%;
     margin-right: 5%;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #social-media-links a{
@@ -349,7 +364,7 @@ footer{
 #social-media-links a:hover{
     background: white;
     color: black;
-    font-weight: 800;
+    font-weight: 900;
     border-radius: 20px;
     transition: .5s;
 }
@@ -416,6 +431,7 @@ footer{
     #mobile-logo a{
         font-size: 16px;
         text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;
         cursor: pointer;
         transition: .5s;
         color: white;
