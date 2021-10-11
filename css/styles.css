@@ -16,7 +16,7 @@ body{
     width: 100%;
     height: 100%;
     font-family: 'Urbanist', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 img{
@@ -102,7 +102,7 @@ hr{
     justify-content: space-around;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 0.5px;
     width: 55%;
 }
@@ -140,7 +140,7 @@ hr{
     font-family: 'Urbanist', sans-serif;
     padding: 5px 0px;
     border-radius: 20px;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 0.5px;
     margin-bottom: 2px;
 }
@@ -182,7 +182,7 @@ hr{
     padding-bottom: 70px;
     padding-top: 70px;
     text-align: left;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 0.5px;
     font-weight: 300;
 }
@@ -231,7 +231,7 @@ hr{
 
 #content, #content2{
     margin: 2em;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 0.5px;
 }
 
@@ -259,7 +259,7 @@ hr{
 
 #exp-content{
     margin: 2em;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 0.5px;
 }
 
@@ -288,7 +288,7 @@ hr{
 
 #software-content1, #software-content2, #software-content3, #software-content4{
     margin: 2em;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 0.5px;
 }
 
@@ -320,7 +320,7 @@ hr{
 
 #coursework-content{
     margin: 2em;
-    font-size: 18px;
+    font-size: 15px;
     letter-spacing: 0.5px;
 }
 
@@ -340,7 +340,7 @@ footer{
     margin-left: 10%;
     margin-right: 10%;
     font-weight: 200;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 0.5px;
 }
 
