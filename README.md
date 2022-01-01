@@ -1,4 +1,4 @@
-# CV Website (v1.5.3)
+# CV Website (v1.6.0)
 This is a CV Website I built using CSS, HTML, and JavaScript based on my official resume, albeit with slight differences.
 
 Contact me through my email on the site if you have any questions. Report issues through my website (either through the report button or by tapping the flag icon if you are on the mobile version).
@@ -8,11 +8,9 @@ I might plan to migrate the website into React.js either later this year or in 2
 
 # Improvements/changes:
 
-* Font size for logo and navigation bar has been slightly reduced.
-
-* Resume file updated.
-
-* Relevant coursework information updated.
+* Font change made to the Site.
+* New resume download link included.
+* Completed Coursework and Upcoming Courses (which was renamed from "Future Courses") sections updated.
 
 # Credit to the users who have created some of the components that were used in this site: 
 
@@ -26,4 +24,4 @@ Note that besides the use of the "hamburgers-master" and the "nprogress-master" 
 
 # Copyright Year
 
-© 2021 Ruben Christopher Arevalo.
+© 2022 Ruben Christopher Arevalo.
