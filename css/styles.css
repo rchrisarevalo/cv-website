@@ -189,9 +189,10 @@ hr{
 
 .introduction h1{
     text-transform: uppercase;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     font-weight: 800;
+    letter-spacing: 0px;
 }
 
 .profile-pic img{
@@ -215,9 +216,10 @@ hr{
 .education h1{
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 800;
+    letter-spacing: 0px;
 }
 
 .education li{
@@ -243,9 +245,10 @@ hr{
 .experience h1{
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 800;
+    letter-spacing: 0px;
 }
 
 .experience li{
@@ -273,9 +276,10 @@ hr{
     text-transform: uppercase;
     margin-left: 5%;
     margin-right: 5%;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 800;
+    letter-spacing: 0px;
 }
 
 .software-projects li{
@@ -304,9 +308,10 @@ hr{
 .coursework h1{
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 800;
+    letter-spacing: 0px;
 }
 
 .coursework li{
@@ -496,6 +501,9 @@ footer{
         font-size: 15px;
         text-align: left;
     }
+    .education h1{
+        font-size: 30px;
+    }
     #univ{
         font-size: 17px;
         text-align: left;
@@ -520,6 +528,9 @@ footer{
     #org{
         text-align: left;
     }
+    .experience h1{
+        font-size: 30px;
+    }
     #exp-content{
         margin-left: 3%;
         margin-right: 3%;
@@ -534,6 +545,9 @@ footer{
     }
     #date{
         text-align: left;
+    }
+    .software-projects h1{
+        font-size: 30px;
     }
     .software-projects li{
         text-align: left;
@@ -553,6 +567,7 @@ footer{
     .coursework h1{
         margin-left: 2%;
         margin-right: 2%;
+        font-size: 30px;
     }
     .coursework li{
         font-size: 15px;
