@@ -125,7 +125,7 @@ hr{
     transition: .5s;
 }
 
-.nav-list li a:focus{
+.nav-list li a:active{
     background: green;
     color: white;
     transition: .15s;
@@ -159,8 +159,8 @@ hr{
     transition: .5s;
 }
 
-.button a:focus{
-    background: red;
+.button a:active{
+    background: rgb(199, 158, 233);
     color: white;
     transition: ease-in .15s;
 }
