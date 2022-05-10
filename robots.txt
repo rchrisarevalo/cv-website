@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: ia_archiver
+User-agent: googlebot
+User-agent: yahoobot
+User-agent: microsoftbot
+Disallow: /
