@@ -10,19 +10,15 @@ var grad_date_msg = document.getElementById("grad_day")
 // The total number of days from today until my expected graduation date
 var num_days = ms * (0.001 / 1) * (1 / 60) * (1 / 60) * (1 / 24)
 
-// Display original unrounded number of days on the console for accuracy purposes
-// and to ensure that the number of days continues to update per each reload
-console.log(num_days)
+// The total number of hours from today until my expected graduation date
+var num_hours = ms * (0.001 / 1) * (1 / 60) * (1 / 60)
 
 num_days = num_days.toFixed(0)
+num_hours = num_hours.toFixed(0)
 
 // Displays number of days left until the set date is reached on the website
 num_days_msg.innerHTML = [num_days + " days"]
 
-console.log(num_days)
-console.log(ms)
-console.log(grad_date, today_date)
-
-if (num_days <= 0){
-    grad_date_msg.style.display = 'none;'
+if (num_days < 1){
+    num_days_msg.innerHTML = [`Graudation day in ${num_hours} hours!`]
 }
