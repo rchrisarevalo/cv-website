@@ -22,7 +22,7 @@ num_hours = num_hours.toFixed(0)
 num_days_msg.innerHTML = [`${num_days} days`]
 
 setInterval(() => {
-    if (new Date().getHours() === 6 && new Date().getMinutes() && new Date().getSeconds() === 0) {
+    if (new Date().getHours() === 6 && new Date().getMinutes() === 0 && new Date().getSeconds() === 0) {
         num_days = num_days - 1
         // Displays number of days left until the set date is reached on the website
         num_days_msg.innerHTML = [`${num_days} days`]
