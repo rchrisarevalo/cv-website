@@ -54,13 +54,28 @@ hr{
     display: none;
 }
 
+.nav-container{
+    background: black;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-container li{
+    display: inline-block;
+    margin: 20px;
+    margin-right: 25vh;
+    margin-left: 25vh;
+}
+
 #logo{
     transition: .5s;
     font-family: 'Open Sans', sans-serif;
 }
 
 #logo a{
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase;
     cursor: pointer;
     transition: .5s;
@@ -78,97 +93,29 @@ hr{
     letter-spacing: 2px;
 }
 
-#mobile-logo{
-    transition: .5s;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.nav-bar{
-    background: black;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    align-items: center;
-    justify-content: space-around;
-    display: inline-flex;
-    width: 100%;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    position: sticky;
-    top: 0;
-}
-
-.nav-list{
-    display: inline-flex;
-    justify-content: space-around;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    width: 55%;
-}
-
-.nav-list li{
-    list-style: none;
-}
-
-.nav-list li a{
+#button a{
+    background: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
     text-decoration: none;
     color: white;
-    padding: 5px 15px;
-    border-radius: 20px;
-    font-weight: 200;
     transition: .5s;
-}
-
-.nav-list li a:hover{
-    background: white;
-    color: black;
-    font-weight: 800;
-    transition: .5s;
-}
-
-.nav-list li a:active{
-    background: green;
-    color: white;
-    transition: .15s;
-}
-
-.button{
-    border: none;
-    background: rgb(63, 63, 63);
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    padding: 5px 0px;
-    border-radius: 20px;
-    font-size: 15px;
+    font-weight: 300;
     letter-spacing: 0.5px;
-    margin-bottom: 2px;
 }
 
-.button a{
-    color: white;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-weight: 500;
-    border-radius: 20px;
-    transition: .5s;
-}
-
-.button a:hover{
+#button a:hover{
     background: white;
     color: black;
-    font-weight: 800;
+    font-weight: 900;
     transition: .5s;
 }
 
-.button a:active{
-    background: rgb(199, 158, 233);
-    color: white;
-    transition: ease-in .15s;
-}
-
-.button a i{
-    padding: 0px 10px;
+#list-mobile-button{
+    display: none;
 }
 
 .intro-section{
@@ -405,58 +352,37 @@ footer{
         padding-bottom: 20px;
         background: black;
     }
-    .nav-bar{
-        height: 100vh;
-        width: 85%;
-        top: 70px;
-        position: fixed;
-        padding-top: 0px;
-        left: -900px;
-        z-index: 2;
-        transition: 1.5s;
+    .nav-container{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
-    .nav-bar.active{
-        background: black;
-        left: 0px;
-        transition: .9s;
-    }
-    .nav-list{
-        top: 110px;
-        width: 100%;
-        height: 70%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        position: fixed;
+    .nav-container li{
+        margin: 0;
     }
     #logo{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #button{
         display: none;
     }
-    #mobile-logo{
-        margin-left: 23%;
-        margin-right: 23%;
-        transform: translateX(3px);
+    #button-task{
+        display: none;
     }
-    #mobile-logo a{
-        font-size: 16px;
-        text-transform: uppercase;
-        font-family: 'Open Sans', sans-serif;
-        cursor: pointer;
-        transition: .5s;
-        color: white;
+    #list-mobile-button{
+        display: inline-block;
+        margin-left: 35px;
+    }
+    #mobile-button a{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 20px;
         text-decoration: none;
-    }
-    #mobile-logo a:hover{
-        color: rgba(136, 136, 136, 0.76);
-        transition: .5s;
-    }
-    #mobile-logo h3{
-        font-weight: 200;
-        letter-spacing: 2px;
-    }
-    .button{
-        display: none;
+        color: white;
+        background: grey;
+        font-weight: 300;
     }
     #report-icon{
         padding: 7px 15px;
