@@ -384,16 +384,6 @@ footer{
         background: grey;
         font-weight: 300;
     }
-    #report-icon{
-        padding: 7px 15px;
-        transition: .5s;
-        float: right;
-        transform: translate(-10px, -35.5px);
-    }
-    #report-icon i{
-        font-size: 28px;
-        color: white;
-    }
     .introduction{
         margin-left: 7%;
         margin-right: 7%;
