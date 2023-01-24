@@ -1,4 +1,4 @@
-var grad_date = new Date(2023, 4, 13, 18)
+var grad_date = new Date(2023, 4, 12, 18)
 var today_date = Date.now()
 var ms = grad_date - today_date
 
