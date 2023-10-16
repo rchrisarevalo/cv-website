@@ -13,8 +13,6 @@ Contact me through my email on the site if you have any questions. Report issues
 
 # Credit to the users who have created some of the components that were used in this site: 
 
-* The _**"hamburgers-master"**_ folder originates from **Jonathan Suh**, the creator of the hamburger components used for mobile navigation bars. The code was used in accordance to the terms of the MIT License, which allows the code to be used in any way, whether it'd be for non-commercial or commercial purposes. All copyright notices are preserved within the folder.
-
 * The _**"nprogress-master"**_ folder originates from **Rico Santa Cruz (a.k.a Rico Sta. Cruz)**. He is the creator of the progress bar component that was used to update this site. The code was used in accordance to the terms of the MIT License, which allows the code to be used in any way, whether it'd be for non-commercial or commercial purposes. All copyright notices are preserved within the folder.
 
 # Copyright Notice
